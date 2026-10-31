@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>N.Z. Apps</title>
+<meta name="description" content="Small, friendly apps by N.Z. Apps.">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    color: #fff4e6;
+    background: linear-gradient(180deg, #1f3870 0%, #101e45 100%) fixed;
+    min-height: 100vh;
+  }
+  header { text-align: center; padding: 56px 16px 24px; }
+  .logo { width: 120px; height: 66px; }
+  header h1 { margin: 16px 0 4px; font-size: 32px; font-weight: 900; }
+  header p { margin: 0; opacity: 0.75; }
+  main { max-width: 640px; margin: 0 auto; padding: 16px 16px 48px; }
+  h2 { font-size: 15px; letter-spacing: 0.08em; color: #ffc371; margin: 24px 4px 12px; }
+  .app {
+    display: flex; gap: 16px; align-items: center;
+    background: rgba(0, 8, 20, 0.28);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 24px; padding: 18px;
+  }
+  .app svg { width: 72px; height: 72px; border-radius: 18px; flex: none; }
+  .app h3 { margin: 0; font-size: 20px; font-weight: 900; }
+  .app p { margin: 4px 0 10px; opacity: 0.85; line-height: 1.4; }
+  .app a { color: #ffc371; font-weight: 700; }
+  footer { text-align: center; opacity: 0.6; font-size: 14px; padding-bottom: 32px; }
+</style>
+</head>
+<body>
+  <header>
+    <!-- N.Z. Apps logo in the sunset gradient -->
+    <svg class="logo" viewBox="0 0 942 518" aria-label="N.Z. Apps logo">
+      <defs>
+        <linearGradient id="nzg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#ff6f61"/><stop offset=".5" stop-color="#ff9466"/><stop offset="1" stop-color="#ffc371"/>
+        </linearGradient>
+      </defs>
+      <path fill="url(#nzg)" fill-rule="evenodd" d="M0,0 L322,328 L322,111 L872,111 L587,438 L837,438 L942,518 L397,518 L82,188 L82,498 L0,388 Z M397,193 L682,193 L397,513 Z"/>
+    </svg>
+    <h1>N.Z. Apps</h1>
+    <p>Small, friendly apps</p>
+  </header>
+
+  <main>
+    <h2>APPS</h2>
+    <div class="app">
+      <!-- Sunset Score app icon -->
+      <svg viewBox="0 0 108 108" aria-hidden="true">
+        <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff6f61"/><stop offset=".55" stop-color="#ff9466"/><stop offset="1" stop-color="#ffc371"/></linearGradient></defs>
+        <rect width="108" height="62" fill="url(#sky)"/>
+        <g stroke="#ffe08a" stroke-width="3.5" stroke-linecap="round"><path d="M54 32.5V25.5M40.6 38.6L35.6 33.6M67.4 38.6L72.4 33.6M35 52H28M73 52H80"/></g>
+        <circle cx="54" cy="52" r="15" fill="#ffe08a" stroke="#8a2f3c" stroke-width="2.5"/>
+        <circle cx="49" cy="48" r="2.1" fill="#8a2f3c"/><circle cx="59" cy="48" r="2.1" fill="#8a2f3c"/>
+        <path d="M47.5 54.5q6.5 5.5 13 0" stroke="#8a2f3c" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+        <rect y="62" width="108" height="46" fill="#1d3466"/>
+        <g stroke-linecap="round" stroke-width="2.6"><path d="M39 68.5H69" stroke="#ffd27a"/><path d="M45 74H63" stroke="#e8b26a"/><path d="M50.5 79.5H57.5" stroke="#c99559"/></g>
+      </svg>
+      <div>
+        <h3>Sunset Score</h3>
+        <p>Find out how beautiful tonight's sunset will be, and get a heads-up when it's worth watching.</p>
+        <a href="sunset-score/privacy.html">Privacy policy</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>N.Z. Apps™ · <a href="mailto:zwickeln@gmail.com" style="color:inherit">zwickeln@gmail.com</a></footer>
+</body>
+</html>
